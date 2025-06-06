@@ -1,0 +1,32 @@
+[Symbols]
+up
+down
+left
+right
+grab
+[States]
+entry
+hallway
+kitchen
+library
+exit
+secret room
+secret room with spoon
+secret room without spoon
+[Rules]
+entry, up, hallway
+hallway, up, secret room without spoon
+secret room without spoon, grab, secret room with spoon
+hallway, left, kitchen
+hallway, right, library
+library, down, exit
+kitchen, right, hallway
+secret room without spoon, down, hallway
+secret room with spoon, down, hallway
+library, left, hallway
+exit, up, library
+[First state]
+entry
+[Final state]
+exit
+secret room with spoon
