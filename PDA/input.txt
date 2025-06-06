@@ -1,0 +1,14 @@
+/* simple comment */
+/* outer /* inner */ outer */
+/* deeply /* nested /* comment */ here */ end */
+/* unclosed comment
+closed without open */
+/* first */ /* second */
+code /* comment */ more code
+/**/
+/* /* */ */
+/* no */ matching /* pairs
+*/
+/* level1 /* level2 /* level3 */ back2 */ back1 */
+just regular text
+/* comment with / and * inside */
